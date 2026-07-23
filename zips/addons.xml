@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.welcome.setup" name="Welcome Setup" version="1.0.0" provider-name="avguser42">
+<addon id="script.welcome.setup" name="Welcome Setup" version="1.0.1" provider-name="avguser42">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
