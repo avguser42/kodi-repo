@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.welcome.setup" name="Welcome Setup" version="1.0.1" provider-name="avguser42">
+<addon id="script.welcome.setup" name="Welcome Setup" version="1.1.0" provider-name="avguser42">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.service" library="default.py" start="login"/>
+    <extension point="xbmc.python.script" library="run_wizard.py"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">First-run repository and addon installer</summary>
-        <description lang="en_GB">Shows a setup wizard on first launch to install repositories, addons, and apply settings.</description>
+        <description lang="en_GB">Shows a setup wizard on first launch to install repositories, addons, and apply settings. Can also be re-run anytime from Program Add-ons, with an option to skip anything already installed or connected.</description>
         <platform>all</platform>
         <license>GPL-2.0-only</license>
     </extension>
